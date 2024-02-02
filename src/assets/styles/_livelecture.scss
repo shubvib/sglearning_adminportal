@@ -1,0 +1,313 @@
+.livelectureMainWrapper{
+  .nav{
+    background: #2d2c2c;
+    padding: 20px 0px;
+    height: 100%;
+    .header-classes-box{
+      padding: 0px 10px;
+      h3{
+       color: #bfb0b0;
+       font-size: 18px;
+       text-align: center;
+       font-family: $common-custome-dark-font-family-regular;
+       margin-bottom: 15px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       text-transform: uppercase;
+       .add-class-btn{
+          background: transparent;
+          border: 0px;
+          padding: 0px;
+          font-size: 14px;
+          svg{
+            color: #fff;
+          }
+       }
+      }
+      .explorerSearchWrapper{
+        margin-bottom: 15px;
+        .form-control{
+           &:focus{
+             background: #080808;
+           }
+        }
+        button.btn.btn-outline-secondary {
+            background: #080808;
+            color: #ccc;
+            border: 0px;
+            border-radius: 0px;
+            border-bottom: 1px solid #434343;
+        }
+      }
+    }
+    .nav-item{
+      .nav-link{
+        border-radius: 0px;
+        text-align: center;
+        font-size: 15px;
+        color: #9f9494;
+        padding: 5px 10px;
+        width: 100%;
+        margin: 0 auto;
+        font-family: $common-custome-dark-font-family-regular;
+        
+      }
+      .nav-link.active{
+        background: #007bff;
+        color: #fff;
+      }
+    }
+  }
+  .live-lecture-main-wrapper-view{
+          .time-table-content-header {
+            display: flex;
+            justify-content: space-between;
+            .header-title-box {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                  background: #080808;
+                  padding: 20px 10px;
+                  width: 13%;
+                  border-right: 2px solid #292626;
+                .title-name{
+                  span{
+                    color: #bfb0b0;
+                    font-size: 13px;
+                    text-align: center;
+                    font-family: $common-custome-dark-font-family-regular;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                  }
+                }
+                .add-lecture-time{
+                  position: relative;
+                  cursor: pointer;
+                  svg{
+                    color: #fff;
+                    font-size: 14px;
+                    cursor: pointer;
+                  }
+                  input#appt {
+                      position: absolute;
+                      width: 25px;
+                      right: -4px;
+                      opacity: 0;
+                      cursor: pointer;
+                  }
+                }
+                .add-lecture{
+                  .dropdown{
+                    button{
+                      background: transparent;
+                      border: 0px;
+                      padding: 0px;
+                      font-size: 14px;
+                      &:after{
+                        display: none;
+                      }
+                    }
+                    .drop-down-scrollbar {
+                        height: 200px;
+                        overflow-y: scroll;
+                    }
+                    .dropdown-menu {
+                        min-width: 285px;
+                        font-size: 0.875rem;
+                        box-shadow: 0px 0px 7px 0px rgba(24,220,255,1);
+                        background: #000;
+                        border: 0px;
+                        padding-bottom: 0px;
+                       // box-shadow: 0px 0px 5px 0px rgb(15 226 218 / 35%);
+                       .dropdown-item{
+                        border-radius: 5px;
+                        margin-bottom: 5px;
+                        color: #fff;
+                        font-size: 14px;
+                        font-family: $common-custome-dark-font-family-regular;
+                        text-align: center;
+                        padding:7px 20px;
+                        justify-content: center;
+                        transition: 0.5s linear;
+                        position: relative;
+                       
+                              svg.checkedmd{
+                                position: absolute;
+                                right: 5px;
+                                background: #000;
+                                border-radius: 50px;
+                                width: 18px;
+                                height: 18px;
+                                padding: 2px;
+                               }
+                        
+                        
+                        &:hover{
+                          background: #3b3a3a !important;
+                        }
+                       }
+                       .dropdown-item.sub-1{
+                         background: $primary;
+                       }
+                       .dropdown-item.sub-2{
+                        background: $green;
+                       }
+                       .dropdown-item.sub-3{
+                         background: $teal;
+                       }
+                       .dropdown-item.sub-4{
+                        background: $blue;
+                       }
+                       .dropdown-item.sub-5{
+                         background: $indigo;
+                       }
+                       .dropdown-item.sub-6{
+                        background: $purple;
+                       }
+                       .dropdown-item.sub-7{
+                        background: $pink;
+                       }
+                       .dropdown-item.sub-8{
+                        background: $orange;
+                       }
+                       .dropdown-item.sub-add{
+                        background: $white-smoke;
+                        border-radius: 0px;
+                        margin: 0px;
+                        color: #000;
+                        border-bottom-left-radius: 3px;
+                        border-bottom-right-radius: 3px;
+                        svg{
+                          margin-right: 10px;
+                        }
+                       }
+                       
+                    }
+                  }
+                }
+            }
+            .header-title-box:last-child{
+              border-right: 0px;
+            }
+         }
+     }
+     .time-table-content{
+       height: 100%;
+       .time-table-chart-content{
+          display: flex;
+          justify-content: space-between;
+          background: #201f1f;
+          height: 100%;
+          border-bottom: 1px solid #292626;
+          .subject-schedule-box{
+            display: flex;
+            justify-content: space-between;
+            // align-items: center;
+          }
+          .time-table-inner-content{
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+           //background: #080808;
+             text-align: center;
+            padding: 5px 0px;
+            width: 13%;
+            border-right: 2px solid #292626;
+            
+            .live-lecture-video-box{
+              text-align: right;
+              display: flex;
+              align-items: flex-start;
+              margin-left: 10px;
+              height: fit-content;
+              opacity:0.3;
+              button{
+                background: transparent;
+                font-size: 18px;
+                color: #bfb0b0;
+                border: 0px;
+                outline: 0px;
+                transition: 0.3s linear;
+                position: relative;
+                height: fit-content;
+                padding: 0px 5px;
+                .live-dot{
+                  position: absolute;
+                  top: 0px;
+                  left: 4px;
+                }
+                &:hover{
+                  color: #fff;
+                }
+              }
+            }
+            .current-live-lecture-video-box{
+             opacity: 1;
+            }
+            span{
+              display: block;
+              color: #bfb0b0;
+              font-size: 14px;
+              font-family: $common-custome-dark-font-family-regular;
+            }
+            button.subject-btn {
+            border-radius: 0px;
+            color: #fff;
+            font-size: 14px;
+            font-family: $common-custome-dark-font-family-regular;
+            text-align: center;
+            padding:0px 5px;
+            justify-content: center;
+            transition: 0.5s linear; 
+            border: 0px; 
+            width: fit-content;
+            opacity: 0.2;
+            margin-bottom: 2px;
+            height: fit-content;
+            }
+             button.subject-btn.subj1{
+              background: #007bff73;
+              border-left: 4px solid #007bff;
+              
+            }
+             button.subject-btn.subj2{
+              background: #46c35f73;
+              border-left: 4px solid #46c35f;
+              
+            }
+             button.subject-btn.subj3{
+              background: $teal;
+            }
+             button.subject-btn.subj4{
+              background: #5e50f973;
+              border-left: 4px solid #5E50F9;
+              
+            }
+             button.subject-btn.subj5{
+              background: $indigo;
+            }
+             button.subject-btn.subj6{
+            background: $purple;
+            }
+             button.subject-btn.subj7{
+               background: #e91e6373;
+              border-left: 4px solid #E91E63;
+              
+            }
+            button.subject-btn.dash{
+              background: transparent !important;
+              text-align: center;
+              margin: 0 auto;
+            }
+            button.subject-btn.current-day{
+              opacity: 1!important;
+            }
+          }
+          .time-table-inner-content:last-child{
+              border-right: 0px;
+          }
+       }
+           
+     }
+}

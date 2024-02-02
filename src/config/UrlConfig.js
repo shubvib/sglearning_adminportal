@@ -1,0 +1,85 @@
+import { Network } from '../services';
+
+export const HOST = 'http://localhost/';
+export const API = 'api/';
+
+const BASE_URL = Network.getBaseUrl();
+
+const UrlConfig = {
+    routeUrls: {
+        loginUrl: '/login',
+        register: '/register',
+        dashboard: '/dashboard',
+        assignedexams: '/assignedexams',
+        questionpapers: '/questionpapers',
+        publishexam: '/publishexam',
+        enrollstudent: '/enrollstudent',
+        enrollfaculty: '/enrollfaculty',
+        reports: '/reports',
+        liveLecture: '/livelecture',
+        termsPrivacyPolicy: '/termsPrivacyPolicy/:userId',
+        trash: '/trash',
+        reportAnalysis: '/reportAnalysis',
+        demopage : '/demopage'
+    },
+    apiUrls: {
+        registerUrl: `account/org/register`,
+        getOTPUrl: `account/otp`,
+        emailLoginUrl: `account/org/login`,
+        resetPassword: `account/resetPassword`,
+        loginWithGoogle: `account/auth/google`,
+        getCourseMasterList: `coursemasters`,
+        branchesClassesBatches: `branchesClassesBatches`,
+        getSubjectMasterList: `subjectMasters`,
+        getChapterMasterList: `chapterMasters`,
+        getSessionMasterList: `sessions`,
+        createSession: `sessions`,
+        getCourseTypes: `courses`,
+        getSubjects: `subjects`,
+        importStudent: `students/import`,
+        createBranch: `branches`,
+        createClass: `classes`,
+        createBatch: `batches`,
+        createStudent: `students`,
+        uploadExam: `exams/importDoc/processDocAndGetSubjects`,
+        createExam: `exams/importDoc/mapSubjectsAndCreateExam`,
+        getExamList: `exams`,    //question paper list.
+        editExamDetails: `exams`,
+        getStudentList: `students`,
+        getStudents: `students`,
+        students: `students`,
+        changeStudentBatch: `students/changeBatch`,
+        scheduleExam: `examSchedule/closeExamSchedule`,
+        getExamSchedule: `examSchedule`,
+        updateExamSchedule: `batches/examSchedule/`,
+        cancelExamSchedule: `examSchedule`,
+        updateExamScheduleNew: `examSchedule`,
+        examReport: `examreport`,
+        dashBoard: `stats1`,
+        accounts: `accounts`,
+        absentStudents: `absentStudents`,
+        examLiveStats: `examLiveStats`,
+        answerKeyCorrection: `answerKeyCorrection`,
+        markQuestionsAsWrong: `markQuestionsAsWrong`,
+        studentGivenTest: '/students/examSchedule?studentUserId=',
+        deleteExam: 'exams',
+        deleteStudent: 'students',
+        platformTemplates: 'platform/templates',
+        updateBranches: 'branches',
+        updateClasses: 'classes',
+        updateBatches: 'batches',
+        getDeletedExams: 'exams?isDeleted=true',
+        getDeletedStudents: 'students?isDeleted=true',
+        updateStudentEmail: 'students',
+        resetPasswordSupport: 'account/resetPasswordSupport',
+        changeAdminPassCode: 'account/changePassword',
+        generateRank: 'examSchedule',
+        deleteExamSchedule: 'examSchedule',
+        examWiseHighestMarks: 'analysis/examWiseHighestMarks',
+        wrongUnAttempted: 'analysis/wrongUnAttempted',
+        testToTest: 'analysis/testToTestComparison',
+        allBranchErrorList: 'analysis/questionStats',
+    }
+}
+
+export default UrlConfig;

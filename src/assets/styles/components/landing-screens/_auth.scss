@@ -1,0 +1,280 @@
+/* Auth */
+
+.auth {
+	height: 100%;
+	.login-half-bg {
+		// background: url("../../../images/auth/New-Screen.jpg");
+		// background-size: cover;
+		width: 100%;
+		height: 100vh;
+		-o-object-fit: cover;
+		object-fit: cover;
+		-o-object-position: left;
+		object-position: left;
+	}
+	.register-half-bg {
+		background: url("../../../images/auth/register-bg.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 100vh;
+		-o-object-fit: cover;
+		object-fit: cover;
+		-o-object-position: left;
+		object-position: left;
+	}
+	&.lock-full-bg {
+		background: url("../../../images/auth/lockscreen-bg.jpg");
+		background-size: cover;
+	}
+	.lock-profile-img {
+		width: 90px;
+		height: 90px;
+		border-radius: 100%;
+	}
+	.login-section-wrapper {
+		background: var(--box-bg-login-register-bg-color);
+		// background: #ffffffd4;
+		display: -webkit-box;
+		display: flex;
+		max-height: 100vh;
+		overflow-y: auto;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+		padding: 68px 100px;
+		-webkit-box-shadow: 0px 0px 13px 0px rgba(99, 2, 2, 0.75);
+		-moz-box-shadow: 0px 0px 13px 0px rgba(99, 2, 2, 0.75);
+		box-shadow: 0px 0px 13px 0px rgba(99, 2, 2, 0.75);
+		// background-color: #2d3436;
+		// background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder,
+.form-control[readonly] + .form-control-placeholder {
+    color:#bfb0b0;
+}
+		// .form-control, .form-control:valid, .form-control[readonly]{
+		// 	&:focus .form-control-placeholder{
+		// 		color:#bfb0b0;
+		// 	}
+		// }
+		.form-control-placeholder{
+			color:#bfb0b0;
+		}
+		
+	}
+	.auth-form-light {
+		background: $sidebar-profile-bg;
+		// background: transparent;
+
+		select {
+			color: $input-placeholder-color;
+		}
+		.input-group {
+			.form-control {
+				&:focus,
+				&:active {
+					border-color: $border-color;
+				}
+			}
+		}
+		.passcodeText {
+			text-align: center;
+			span {
+				color: $cart-dark-text-color;
+				font-size: $default-font-size;
+				font-family: $common-custome-dark-font-family-regular;
+			}
+			.separator {
+				display: flex;
+				align-items: center;
+				text-align: center;
+				color: $cart-dark-text-color;
+				font-size: $default-font-size;
+				font-family: $common-custome-dark-font-family-regular;
+				margin: 20px 0px;
+			}
+			.separator::before,
+			.separator::after {
+				content: "";
+				flex: 1;
+				border-bottom: 1px solid $cart-dark-text-color;
+			}
+			.separator::before {
+				margin-right: 0.25em;
+			}
+			.separator::after {
+				margin-left: 0.25em;
+			}
+		}
+		.set-passcode-box {
+			text-align: center;
+			.set-pascode-btn {
+				text-align: center;
+				margin: 0 auto;
+			}
+		}
+		.terms-privacy-box {
+			font-size: $text-size-small;
+			font-family: $common-custome-dark-font-family-regular;
+		}
+
+		.show-password-eye {
+			color:var(--text-dark-light);
+			transition-property: width;
+			transition-duration: 10s;
+			transition-timing-function: linear;
+			transition-delay: 0.1s;
+			:hover {
+				color: #2196f3;
+				height: 20px;
+				width: 20px;
+			}
+		}
+	}
+	.auth-form-transparent {
+		background: transparent;
+		.form-control,
+		.input-group-text {
+			border-color: theme-color(secondary);
+			&:focus,
+			&:active {
+				border-color: theme-color(secondary);
+			}
+		}
+		select {
+			outline-color: theme-color(secondary);
+		}
+	}
+	&.auth-img-bg {
+		padding: 0;
+		.auth-form-transparent {
+			@media (min-width: 768px) {
+				width: 55%;
+				margin: auto;
+			}
+		}
+	}
+	.brand-logo {
+		text-align: center;
+		img {
+			width: 85px;
+		}
+	}
+	.title-learning-app {
+		color: $white;
+		font-family: "GOTHICB";
+		font-size: 24px;
+		text-align: center;
+	}
+	.loginWithGoogle button.google-button {
+		border: 1px solid #988f8f !important;
+		border-radius: 0px !important;
+		box-shadow: none !important;
+		width: 100%;
+		height: 48px;
+	}
+	.loginWithGoogle button.google-button div {
+		margin-left: 10px;
+	}
+	.loginWithGoogle button.google-button span {
+		width: 100%;
+		color: #000;
+		font-size: 15px;
+		font-family: $common-custome-dark-font-family-bold;
+	}
+	form {
+		.form-group {
+			margin-bottom: 1.5rem;
+			label {
+				font-size: 0.7125rem;
+			}
+			input {
+				padding-top: 23px;
+			}
+			.form-control {
+				background: transparent;
+				border-radius: 0;
+				font-size: 0.9375rem;
+				font-family: $common-custome-dark-font-family-regular;
+				color: #fff;
+				border: 0px;
+				border-bottom: 1px solid #fff;
+				padding-left: 0px;
+				&:focus {
+					border-bottom: 1px solid $input-border-bottom;
+					background: transparent;
+				}
+			}
+
+			::-webkit-input-placeholder {
+				/* Edge */
+				color: #fff;
+			}
+
+			:-ms-input-placeholder {
+				/* Internet Explorer 10-11 */
+				color: #fff;
+			}
+
+			::placeholder {
+				color: #fff;
+			}
+		}
+		.form-check-label {
+			font-family: "GOTHIC";
+			cursor: pointer;
+		}
+		.auth-form-btn {
+			padding: 0.625rem;
+			line-height: 1.5;
+			background: #f72828;
+			color: #fff;
+			font-family: "GOTHICB";
+			font-size: 15px;
+			border: 0px;
+			border-radius: 0px;
+			&:focus {
+				background: #f72828;
+				border-color: #f72828;
+			}
+			&:active {
+				background: #f72828;
+				border-color: #f72828;
+			}
+		}
+		.btn-primary:not(:disabled):not(.disabled):active,
+		.btn-primary:not(:disabled):not(.disabled).active,
+		.show > .btn-primary.dropdown-toggle {
+			background: #f72828;
+			border-color: #f72828;
+		}
+		.btn-facebook {
+			padding: 0.625rem;
+			line-height: 1.5;
+			background: #3b579d;
+			color: #fff;
+			font-family: "GOTHICB";
+			font-size: 15px;
+			border: 0px;
+			border-radius: 0px;
+			&:focus {
+				background: #3c5084;
+				border-color: #3c5084;
+			}
+			&:active {
+				background: #3c5084;
+				border-color: #3c5084;
+			}
+		}
+		.auth-link {
+			font-size: $default-font-size;
+			font-family: "GOTHIC";
+			&:hover {
+				color: initial;
+			}
+		}
+	}
+	.loginWithGoogle {
+		margin-top: 20px;
+	}
+}

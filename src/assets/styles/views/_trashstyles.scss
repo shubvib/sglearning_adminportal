@@ -1,0 +1,85 @@
+.trash-tab-box {
+    width: 100%;
+    .nav.header-main-nav {
+        border-bottom: 1px solid #313233;
+        .nav-item {
+            width: 50%;
+            a.nav-link {
+                color: var(--a-nav-link-text-color);
+                font-size: 18px;
+                border: none;
+                border-bottom: 3px solid transparent;
+                text-align: center;
+                font-family: $common-custome-dark-font-family-regular;
+                border-radius: 0px;
+                &:hover {
+                    border: none;
+                    border-bottom: 3px solid transparent;
+                }
+            }
+            a.nav-link.active {
+                background: none;
+                color: var(--a-nav-link-active-text-color);
+                border-color: var(--a-nav-link-active-border-color);
+                position: relative;
+                &:after {
+                    content: "";
+                    border-left: 7px solid transparent;
+                    border-right: 7px solid transparent;
+                    border-top: 7px solid var(--a-nav-link-active-after-color);
+                    position: absolute;
+                    bottom: -9px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    display: block;
+                }
+            }
+        }
+    }
+    .tab-content {
+        padding: 10px;
+        .trash-table-box {
+            table {
+                width: 100%;
+                tr {
+                    th {
+                        text-align: center;
+                        color: var(--trash-table-box-text-th);
+                        font-family: $common-custome-dark-font-family-bold;
+                        font-size: 15px;
+                        background:var(--trash-table-box-bg-th);
+                        border-color:var(--trash-table-box-border-th);
+                        border-top-width: 1px !important;
+                        border-top: 1px !important;
+                    }
+                }
+                tr {
+                    td {
+                        text-align: center;
+                        color:var(--trash-table-box-text-td);
+                        font-family: $common-custome-dark-font-family-regular;
+                        font-size: 14px;
+                        background:var(--trash-table-box-bg-td);
+                    }
+                }
+
+                tr {
+                    @keyframes gradient {
+                        0% {
+                            background-position: 100% 0%;
+                        }
+                        100% {
+                            background-position: 0% 0%;
+                        }
+                    }
+
+                    .grad-loader-anim {
+                        background: linear-gradient(to right, #000000, #5f5e5e, #000000, #605d5d);
+                        background-size: 300% 100%;
+                        animation: gradient 1.5s linear infinite;
+                    }
+                }
+            }
+        }
+    }
+}

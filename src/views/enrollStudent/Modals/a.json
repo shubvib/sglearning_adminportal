@@ -1,0 +1,891 @@
+{
+    "data": [
+        {
+            "examScheduleId": "5025c528-d643-4535-97e3-ff6a10961e7d",
+            "examName": "Right Exam 2 old",
+            "batchExamScheduleId": "449b86ee-6c21-460e-a546-11a730b152b5",
+            "student": {
+                "branches": [
+                    {
+                        "id": "c296e66b-1296-4f33-b25b-98e6b22c9176",
+                        "name": "Atigre",
+                        "code": "BRN001"
+                    }
+                ],
+                "classes": [
+                    {
+                        "id": "5c367600-5c9d-40ed-8b56-1e8b3f5f943a",
+                        "name": "Class 13",
+                        "code": "CLS001"
+                    }
+                ],
+                "batches": [
+                    {
+                        "id": "7622a583-073f-4979-95aa-4784fc273941",
+                        "name": "Batch 1",
+                        "code": "BAT001"
+                    }
+                ],
+                "userInfo": {
+                    "id": "a4aa0712-abb6-40d2-95a6-6188926dae70",
+                    "userName": "malu@yopmail.com",
+                    "name": "MALU",
+                    "email": "malu@yopmail.com",
+                    "phone": null,
+                    "profileImage": null,
+                    "postalCode": null,
+                    "address": null,
+                    "city": null,
+                    "state": null
+                },
+                "code": "123",
+                "isSelfEnrolled": false,
+                "enrolmentSourceType": 1,
+                "id": "569daa7c-bd23-4aa4-be50-047a31300a84",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-13T11:12:43.4268084+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "startDateTime": "2020-10-17T04:55:00+00:00",
+            "bufferTimeInMinutes": 0,
+            "shuffleQuestions": true,
+            "mandatoryQuestions": false,
+            "updateReason": null,
+            "isSubmitted": true,
+            "exam": {
+                "name": "Right Exam 2",
+                "description": "",
+                "duration": 60,
+                "noOfQuestion": 2,
+                "marks": 16,
+                "subjects": [
+                    {
+                        "id": "c414cdc3-7d56-4221-9718-bbe85a7bae09",
+                        "name": "Physics",
+                        "code": null,
+                        "marks": 8
+                    },
+                    {
+                        "id": "c414cdc3-7d56-4221-9718-bbe85a7bae09",
+                        "name": "Physics",
+                        "code": null,
+                        "marks": 8
+                    }
+                ],
+                "courses": [
+                    {
+                        "id": "20849103-f87b-4c9b-bf75-d91f091619a2",
+                        "name": "CET",
+                        "code": null
+                    }
+                ],
+                "instructions": "For MHT-CET each correct answer carries +2 for maths, +1 for chemistry & physics each and for wrong answer 0 marks.\nFor JEE each correct answer +4 and for wrong answer -1 marks.\nFor NEET each correct answer +4 and for wrong answer -1 marks.\nFor K-CET each correct answer carries +2 for maths, +1 for chemistry and physics each and for wrong answer 0 marks.\nExam will get automatically submitted after exam set duration.\nDuring exam, on click of back button, a pop-up will ask to Discard the exam.\n",
+                "examType": 1,
+                "lastScheduleDate": "2020-10-17T04:55:00+00:00",
+                "organizerAccountName": "SG Institute",
+                "organizerAccountShortName": "SGI",
+                "organizerProfileImage": null,
+                "questionSetDataUrl": "https://sglearningfilestorage.blob.core.windows.net/questionsetdatafiles/51b6bd1a-790e-4449-a735-084a92e39b65%2Fc14fae53-2c31-49e5-8a2f-1b863d0bca2b",
+                "id": "eb5b6b11-38f1-4729-82db-88c56788dd59",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-06T05:20:59.5020717+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "inTimeAttemptStartDateTime": "2020-10-17T05:29:49.6589133+00:00",
+            "inTimeAttemptEndDateTime": "2020-10-17T05:30:00.417768+00:00",
+            "inTimeAttemptDiscardedDateTime": null,
+            "orgnaizerRemark": null,
+            "studentRemark": null,
+            "examScheduleAccessType": 1,
+            "purchasedProductId": null,
+            "id": "401ca9f4-ba3c-48fe-a124-8e2756b0b549",
+            "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+            "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+            "dateCreated": "2020-10-17T04:55:18.8833519+00:00",
+            "modifiedBy": "00000000-0000-0000-0000-000000000000",
+            "dateModified": null,
+            "deletedByHandle": null,
+            "deletedBy": "00000000-0000-0000-0000-000000000000",
+            "dateDeleted": null,
+            "isDeleted": false
+        },
+        {
+            "examScheduleId": "3b94ab29-c5c5-4da4-af62-14cf25f44c4b",
+            "examName": "old exam",
+            "batchExamScheduleId": "7b5f71fd-ef65-425c-ba1d-d04b4b945f6e",
+            "student": {
+                "branches": [
+                    {
+                        "id": "c296e66b-1296-4f33-b25b-98e6b22c9176",
+                        "name": "Atigre",
+                        "code": "BRN001"
+                    }
+                ],
+                "classes": [
+                    {
+                        "id": "5c367600-5c9d-40ed-8b56-1e8b3f5f943a",
+                        "name": "Class 13",
+                        "code": "CLS001"
+                    }
+                ],
+                "batches": [
+                    {
+                        "id": "7622a583-073f-4979-95aa-4784fc273941",
+                        "name": "Batch 1",
+                        "code": "BAT001"
+                    }
+                ],
+                "userInfo": {
+                    "id": "a4aa0712-abb6-40d2-95a6-6188926dae70",
+                    "userName": "malu@yopmail.com",
+                    "name": "MALU",
+                    "email": "malu@yopmail.com",
+                    "phone": null,
+                    "profileImage": null,
+                    "postalCode": null,
+                    "address": null,
+                    "city": null,
+                    "state": null
+                },
+                "code": "123",
+                "isSelfEnrolled": false,
+                "enrolmentSourceType": 1,
+                "id": "569daa7c-bd23-4aa4-be50-047a31300a84",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-13T11:12:43.4268084+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "startDateTime": "2020-10-17T10:23:00+05:30",
+            "bufferTimeInMinutes": 0,
+            "shuffleQuestions": true,
+            "mandatoryQuestions": false,
+            "updateReason": null,
+            "isSubmitted": false,
+            "exam": {
+                "name": "CET PSS",
+                "description": "Palak Shikshak",
+                "duration": 180,
+                "noOfQuestion": 150,
+                "marks": 200,
+                "subjects": [
+                    {
+                        "id": "c414cdc3-7d56-4221-9718-bbe85a7bae09",
+                        "name": "Physics",
+                        "code": null,
+                        "marks": 50
+                    },
+                    {
+                        "id": "6825b552-e0a9-4e03-8736-441ac036febe",
+                        "name": "Chemistry",
+                        "code": null,
+                        "marks": 50
+                    },
+                    {
+                        "id": "f7ae1f62-4eb4-4136-83c5-41bae75da491",
+                        "name": "Mathematics",
+                        "code": null,
+                        "marks": 100
+                    }
+                ],
+                "courses": [
+                    {
+                        "id": "20849103-f87b-4c9b-bf75-d91f091619a2",
+                        "name": "CET",
+                        "code": null
+                    }
+                ],
+                "instructions": "For MHT-CET each correct answer carries +2 for maths, +1 for chemistry & physics each and for wrong answer 0 marks.\nFor JEE each correct answer +4 and for wrong answer -1 marks.\nFor NEET each correct answer +4 and for wrong answer -1 marks.\nFor K-CET each correct answer carries +2 for maths, +1 for chemistry and physics each and for wrong answer 0 marks.\nExam will get automatically submitted after exam set duration.\nDuring exam, on click of back button, a pop-up will ask to Discard the exam.\n",
+                "examType": 1,
+                "lastScheduleDate": "2020-10-17T10:23:00+05:30",
+                "organizerAccountName": "SG Institute",
+                "organizerAccountShortName": "SGI",
+                "organizerProfileImage": null,
+                "questionSetDataUrl": "https://sglearningfilestorage.blob.core.windows.net/questionsetdatafiles/51b6bd1a-790e-4449-a735-084a92e39b65%2F7ffbd457-9e4b-4864-b3aa-7bda51f81800",
+                "id": "3b4d02bd-d1d4-4bc7-b84c-7953490f2913",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-03T15:10:00.4443165+05:30",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "inTimeAttemptStartDateTime": null,
+            "inTimeAttemptEndDateTime": null,
+            "inTimeAttemptDiscardedDateTime": null,
+            "orgnaizerRemark": null,
+            "studentRemark": null,
+            "examScheduleAccessType": 1,
+            "purchasedProductId": null,
+            "id": "02ecee76-834d-4226-b0f1-5273542f92d3",
+            "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+            "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+            "dateCreated": "2020-10-17T04:53:19.382911+00:00",
+            "modifiedBy": "00000000-0000-0000-0000-000000000000",
+            "dateModified": null,
+            "deletedByHandle": null,
+            "deletedBy": "00000000-0000-0000-0000-000000000000",
+            "dateDeleted": null,
+            "isDeleted": false
+        },
+        {
+            "examScheduleId": "b3405c11-e9cb-4a88-b47f-54dc317c3f75",
+            "examName": "JEE NEW EXAM",
+            "batchExamScheduleId": "a54ba957-1858-4a80-9916-3e7c23a46531",
+            "student": {
+                "branches": [
+                    {
+                        "id": "c296e66b-1296-4f33-b25b-98e6b22c9176",
+                        "name": "Atigre",
+                        "code": "BRN001"
+                    }
+                ],
+                "classes": [
+                    {
+                        "id": "5c367600-5c9d-40ed-8b56-1e8b3f5f943a",
+                        "name": "Class 13",
+                        "code": "CLS001"
+                    }
+                ],
+                "batches": [
+                    {
+                        "id": "7622a583-073f-4979-95aa-4784fc273941",
+                        "name": "Batch 1",
+                        "code": "BAT001"
+                    }
+                ],
+                "userInfo": {
+                    "id": "a4aa0712-abb6-40d2-95a6-6188926dae70",
+                    "userName": "malu@yopmail.com",
+                    "name": "MALU",
+                    "email": "malu@yopmail.com",
+                    "phone": null,
+                    "profileImage": null,
+                    "postalCode": null,
+                    "address": null,
+                    "city": null,
+                    "state": null
+                },
+                "code": "123",
+                "isSelfEnrolled": false,
+                "enrolmentSourceType": 1,
+                "id": "569daa7c-bd23-4aa4-be50-047a31300a84",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-13T11:12:43.4268084+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "startDateTime": "2020-10-16T11:15:00+00:00",
+            "bufferTimeInMinutes": 0,
+            "shuffleQuestions": true,
+            "mandatoryQuestions": false,
+            "updateReason": null,
+            "isSubmitted": true,
+            "exam": {
+                "name": "JEE NEW EXAM",
+                "description": "new exam 12",
+                "duration": 10,
+                "noOfQuestion": 32,
+                "marks": 128,
+                "subjects": [
+                    {
+                        "id": "c414cdc3-7d56-4221-9718-bbe85a7bae09",
+                        "name": "Physics",
+                        "code": null,
+                        "marks": 40
+                    },
+                    {
+                        "id": "6825b552-e0a9-4e03-8736-441ac036febe",
+                        "name": "Chemistry",
+                        "code": null,
+                        "marks": 36
+                    },
+                    {
+                        "id": "f7ae1f62-4eb4-4136-83c5-41bae75da491",
+                        "name": "Mathematics",
+                        "code": null,
+                        "marks": 52
+                    }
+                ],
+                "courses": [
+                    {
+                        "id": "f1127067-bb7f-4aef-9d1b-d93f7d16dfbd",
+                        "name": "JEE",
+                        "code": null
+                    }
+                ],
+                "instructions": "For MHT-CET each correct answer carries +2 for maths, +1 for chemistry & physics each and for wrong answer 0 marks.\nFor JEE each correct answer +4 and for wrong answer -1 marks.\nFor NEET each correct answer +4 and for wrong answer -1 marks.\nFor K-CET each correct answer carries +2 for maths, +1 for chemistry and physics each and for wrong answer 0 marks.\nExam will get automatically submitted after exam set duration.\nDuring exam, on click of back button, a pop-up will ask to Discard the exam.\n",
+                "examType": 1,
+                "lastScheduleDate": "2020-10-16T11:15:00+00:00",
+                "organizerAccountName": "SG Institute",
+                "organizerAccountShortName": "SGI",
+                "organizerProfileImage": null,
+                "questionSetDataUrl": "https://sglearningfilestorage-dev-cdn.azureedge.net/questionsetdatafiles/51b6bd1a-790e-4449-a735-084a92e39b65%2Feb129bae-41c4-4057-8741-7ae0edd843b9",
+                "id": "be5489c6-a693-4284-82c4-8ff4a646bf6c",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-16T11:14:43.5428433+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "inTimeAttemptStartDateTime": null,
+            "inTimeAttemptEndDateTime": null,
+            "inTimeAttemptDiscardedDateTime": null,
+            "orgnaizerRemark": null,
+            "studentRemark": null,
+            "examScheduleAccessType": 1,
+            "purchasedProductId": null,
+            "id": "5512ecdc-a4aa-4c3b-865e-1c275dbf8d75",
+            "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+            "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+            "dateCreated": "2020-10-16T11:15:14.4883066+00:00",
+            "modifiedBy": "00000000-0000-0000-0000-000000000000",
+            "dateModified": null,
+            "deletedByHandle": null,
+            "deletedBy": "00000000-0000-0000-0000-000000000000",
+            "dateDeleted": null,
+            "isDeleted": false
+        },
+        {
+            "examScheduleId": "ecd06971-6b7b-4510-8daa-957f04a14a01",
+            "examName": "New way 1",
+            "batchExamScheduleId": "237e1b61-fd53-4193-95e7-906368db56a3",
+            "student": {
+                "branches": [
+                    {
+                        "id": "c296e66b-1296-4f33-b25b-98e6b22c9176",
+                        "name": "Atigre",
+                        "code": "BRN001"
+                    }
+                ],
+                "classes": [
+                    {
+                        "id": "5c367600-5c9d-40ed-8b56-1e8b3f5f943a",
+                        "name": "Class 13",
+                        "code": "CLS001"
+                    }
+                ],
+                "batches": [
+                    {
+                        "id": "7622a583-073f-4979-95aa-4784fc273941",
+                        "name": "Batch 1",
+                        "code": "BAT001"
+                    }
+                ],
+                "userInfo": {
+                    "id": "a4aa0712-abb6-40d2-95a6-6188926dae70",
+                    "userName": "malu@yopmail.com",
+                    "name": "MALU",
+                    "email": "malu@yopmail.com",
+                    "phone": null,
+                    "profileImage": null,
+                    "postalCode": null,
+                    "address": null,
+                    "city": null,
+                    "state": null
+                },
+                "code": "123",
+                "isSelfEnrolled": false,
+                "enrolmentSourceType": 1,
+                "id": "569daa7c-bd23-4aa4-be50-047a31300a84",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-13T11:12:43.4268084+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "startDateTime": "2020-10-16T16:08:00+05:30",
+            "bufferTimeInMinutes": 0,
+            "shuffleQuestions": true,
+            "mandatoryQuestions": false,
+            "updateReason": null,
+            "isSubmitted": false,
+            "exam": {
+                "name": "New way 1",
+                "description": "",
+                "duration": 60,
+                "noOfQuestion": 15,
+                "marks": 60,
+                "subjects": [
+                    {
+                        "id": "c414cdc3-7d56-4221-9718-bbe85a7bae09",
+                        "name": "Physics",
+                        "code": null,
+                        "marks": 20
+                    },
+                    {
+                        "id": "6825b552-e0a9-4e03-8736-441ac036febe",
+                        "name": "Chemistry",
+                        "code": null,
+                        "marks": 20
+                    },
+                    {
+                        "id": "f7ae1f62-4eb4-4136-83c5-41bae75da491",
+                        "name": "Mathematics",
+                        "code": null,
+                        "marks": 20
+                    }
+                ],
+                "courses": [
+                    {
+                        "id": "f1127067-bb7f-4aef-9d1b-d93f7d16dfbd",
+                        "name": "JEE",
+                        "code": null
+                    }
+                ],
+                "instructions": "",
+                "examType": 1,
+                "lastScheduleDate": "2020-10-16T16:08:00+05:30",
+                "organizerAccountName": "SG Institute",
+                "organizerAccountShortName": "SGI",
+                "organizerProfileImage": null,
+                "questionSetDataUrl": "https://sglearningfilestorage-dev-cdn.azureedge.net/questionsetdatafiles/51b6bd1a-790e-4449-a735-084a92e39b65%2F243f47b1-bd13-4122-b4ee-cc1cfc57b0f9",
+                "id": "3b5f525e-9b22-42fa-9039-3cf5bb116cc9",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-15T14:50:10.2964068+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "inTimeAttemptStartDateTime": null,
+            "inTimeAttemptEndDateTime": null,
+            "inTimeAttemptDiscardedDateTime": null,
+            "orgnaizerRemark": null,
+            "studentRemark": null,
+            "examScheduleAccessType": 1,
+            "purchasedProductId": null,
+            "id": "e13c1c91-909d-461c-958d-a2e36ff0c58f",
+            "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+            "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+            "dateCreated": "2020-10-16T10:37:17.0758566+00:00",
+            "modifiedBy": "00000000-0000-0000-0000-000000000000",
+            "dateModified": null,
+            "deletedByHandle": null,
+            "deletedBy": "00000000-0000-0000-0000-000000000000",
+            "dateDeleted": null,
+            "isDeleted": false
+        },
+        {
+            "examScheduleId": "4d77087d-2d36-4ba6-b7cf-dd4f1b21a104",
+            "examName": "Testing Exam 14 Oct 2020 updated",
+            "batchExamScheduleId": "176e087a-3c1d-4445-b9e8-468ea68a96ee",
+            "student": {
+                "branches": [
+                    {
+                        "id": "c296e66b-1296-4f33-b25b-98e6b22c9176",
+                        "name": "Atigre",
+                        "code": "BRN001"
+                    }
+                ],
+                "classes": [
+                    {
+                        "id": "5c367600-5c9d-40ed-8b56-1e8b3f5f943a",
+                        "name": "Class 13",
+                        "code": "CLS001"
+                    }
+                ],
+                "batches": [
+                    {
+                        "id": "7622a583-073f-4979-95aa-4784fc273941",
+                        "name": "Batch 1",
+                        "code": "BAT001"
+                    }
+                ],
+                "userInfo": {
+                    "id": "a4aa0712-abb6-40d2-95a6-6188926dae70",
+                    "userName": "malu@yopmail.com",
+                    "name": "MALU",
+                    "email": "malu@yopmail.com",
+                    "phone": null,
+                    "profileImage": null,
+                    "postalCode": null,
+                    "address": null,
+                    "city": null,
+                    "state": null
+                },
+                "code": "123",
+                "isSelfEnrolled": false,
+                "enrolmentSourceType": 1,
+                "id": "569daa7c-bd23-4aa4-be50-047a31300a84",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-13T11:12:43.4268084+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "startDateTime": "2020-10-14T14:52:00+05:30",
+            "bufferTimeInMinutes": 0,
+            "shuffleQuestions": true,
+            "mandatoryQuestions": false,
+            "updateReason": null,
+            "isSubmitted": false,
+            "exam": {
+                "name": "Testing Exam 14 Oct 2020",
+                "description": "testing",
+                "duration": 5,
+                "noOfQuestion": 10,
+                "marks": 40,
+                "subjects": [
+                    {
+                        "id": "c414cdc3-7d56-4221-9718-bbe85a7bae09",
+                        "name": "Physics",
+                        "code": null,
+                        "marks": 32
+                    },
+                    {
+                        "id": "6825b552-e0a9-4e03-8736-441ac036febe",
+                        "name": "Chemistry",
+                        "code": null,
+                        "marks": 4
+                    },
+                    {
+                        "id": "f7ae1f62-4eb4-4136-83c5-41bae75da491",
+                        "name": "Mathematics",
+                        "code": null,
+                        "marks": 4
+                    }
+                ],
+                "courses": [
+                    {
+                        "id": "20849103-f87b-4c9b-bf75-d91f091619a2",
+                        "name": "CET",
+                        "code": null
+                    }
+                ],
+                "instructions": "For MHT-CET each correct answer carries +2 for maths, +1 for chemistry & physics each and for wrong answer 0 marks.\nFor JEE each correct answer +4 and for wrong answer -1 marks.\nFor NEET each correct answer +4 and for wrong answer -1 marks.\nFor K-CET each correct answer carries +2 for maths, +1 for chemistry and physics each and for wrong answer 0 marks.\nExam will get automatically submitted after exam set duration.\nDuring exam, on click of back button, a pop-up will ask to Discard the exam.\n",
+                "examType": 1,
+                "lastScheduleDate": "2020-10-14T14:52:00+05:30",
+                "organizerAccountName": "SG Institute",
+                "organizerAccountShortName": "SGI",
+                "organizerProfileImage": null,
+                "questionSetDataUrl": "https://sglearningfilestorage-dev-cdn.azureedge.net/questionsetdatafiles/51b6bd1a-790e-4449-a735-084a92e39b65%2Fbd935e0f-feb1-4a2d-aab8-6fcbaa44811a",
+                "id": "95bc4872-0f1f-476b-80cc-064d563c80c2",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-14T06:24:01.7760511+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "inTimeAttemptStartDateTime": null,
+            "inTimeAttemptEndDateTime": null,
+            "inTimeAttemptDiscardedDateTime": null,
+            "orgnaizerRemark": null,
+            "studentRemark": null,
+            "examScheduleAccessType": 1,
+            "purchasedProductId": null,
+            "id": "920b27d9-032d-4ed9-9ce1-1d17c18a6f11",
+            "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+            "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+            "dateCreated": "2020-10-14T09:21:40.9577747+00:00",
+            "modifiedBy": "00000000-0000-0000-0000-000000000000",
+            "dateModified": null,
+            "deletedByHandle": null,
+            "deletedBy": "00000000-0000-0000-0000-000000000000",
+            "dateDeleted": null,
+            "isDeleted": false
+        },
+        {
+            "examScheduleId": "6ddaeda0-63d5-4dfb-b385-0744c65cbcbd",
+            "examName": "Testing Exam 14 Oct 2020",
+            "batchExamScheduleId": "ee4eb035-b115-4062-98f4-11dd6eab8cde",
+            "student": {
+                "branches": [
+                    {
+                        "id": "c296e66b-1296-4f33-b25b-98e6b22c9176",
+                        "name": "Atigre",
+                        "code": "BRN001"
+                    }
+                ],
+                "classes": [
+                    {
+                        "id": "5c367600-5c9d-40ed-8b56-1e8b3f5f943a",
+                        "name": "Class 13",
+                        "code": "CLS001"
+                    }
+                ],
+                "batches": [
+                    {
+                        "id": "7622a583-073f-4979-95aa-4784fc273941",
+                        "name": "Batch 1",
+                        "code": "BAT001"
+                    }
+                ],
+                "userInfo": {
+                    "id": "a4aa0712-abb6-40d2-95a6-6188926dae70",
+                    "userName": "malu@yopmail.com",
+                    "name": "MALU",
+                    "email": "malu@yopmail.com",
+                    "phone": null,
+                    "profileImage": null,
+                    "postalCode": null,
+                    "address": null,
+                    "city": null,
+                    "state": null
+                },
+                "code": "123",
+                "isSelfEnrolled": false,
+                "enrolmentSourceType": 1,
+                "id": "569daa7c-bd23-4aa4-be50-047a31300a84",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-13T11:12:43.4268084+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "startDateTime": "2020-10-14T12:00:00+05:30",
+            "bufferTimeInMinutes": 0,
+            "shuffleQuestions": true,
+            "mandatoryQuestions": false,
+            "updateReason": null,
+            "isSubmitted": false,
+            "exam": {
+                "name": "Testing Exam 14 Oct 2020",
+                "description": "testing",
+                "duration": 5,
+                "noOfQuestion": 10,
+                "marks": 40,
+                "subjects": [
+                    {
+                        "id": "c414cdc3-7d56-4221-9718-bbe85a7bae09",
+                        "name": "Physics",
+                        "code": null,
+                        "marks": 32
+                    },
+                    {
+                        "id": "6825b552-e0a9-4e03-8736-441ac036febe",
+                        "name": "Chemistry",
+                        "code": null,
+                        "marks": 4
+                    },
+                    {
+                        "id": "f7ae1f62-4eb4-4136-83c5-41bae75da491",
+                        "name": "Mathematics",
+                        "code": null,
+                        "marks": 4
+                    }
+                ],
+                "courses": [
+                    {
+                        "id": "20849103-f87b-4c9b-bf75-d91f091619a2",
+                        "name": "CET",
+                        "code": null
+                    }
+                ],
+                "instructions": "For MHT-CET each correct answer carries +2 for maths, +1 for chemistry & physics each and for wrong answer 0 marks.\nFor JEE each correct answer +4 and for wrong answer -1 marks.\nFor NEET each correct answer +4 and for wrong answer -1 marks.\nFor K-CET each correct answer carries +2 for maths, +1 for chemistry and physics each and for wrong answer 0 marks.\nExam will get automatically submitted after exam set duration.\nDuring exam, on click of back button, a pop-up will ask to Discard the exam.\n",
+                "examType": 1,
+                "lastScheduleDate": "2020-10-14T12:00:00+05:30",
+                "organizerAccountName": "SG Institute",
+                "organizerAccountShortName": "SGI",
+                "organizerProfileImage": null,
+                "questionSetDataUrl": "https://sglearningfilestorage-dev-cdn.azureedge.net/questionsetdatafiles/51b6bd1a-790e-4449-a735-084a92e39b65%2Fbd935e0f-feb1-4a2d-aab8-6fcbaa44811a",
+                "id": "95bc4872-0f1f-476b-80cc-064d563c80c2",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-14T06:24:01.7760511+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "inTimeAttemptStartDateTime": null,
+            "inTimeAttemptEndDateTime": null,
+            "inTimeAttemptDiscardedDateTime": null,
+            "orgnaizerRemark": null,
+            "studentRemark": null,
+            "examScheduleAccessType": 1,
+            "purchasedProductId": null,
+            "id": "acaa1adf-fe54-49be-a5c8-84b5311963db",
+            "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+            "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+            "dateCreated": "2020-10-14T06:27:20.1695657+00:00",
+            "modifiedBy": "00000000-0000-0000-0000-000000000000",
+            "dateModified": null,
+            "deletedByHandle": null,
+            "deletedBy": "00000000-0000-0000-0000-000000000000",
+            "dateDeleted": null,
+            "isDeleted": false
+        },
+        {
+            "examScheduleId": "5c91d079-9116-4421-bfa5-de710c21faae",
+            "examName": "JEE question",
+            "batchExamScheduleId": "a688396c-435b-4e97-ae82-d2dea07728c4",
+            "student": {
+                "branches": [
+                    {
+                        "id": "c296e66b-1296-4f33-b25b-98e6b22c9176",
+                        "name": "Atigre",
+                        "code": "BRN001"
+                    }
+                ],
+                "classes": [
+                    {
+                        "id": "5c367600-5c9d-40ed-8b56-1e8b3f5f943a",
+                        "name": "Class 13",
+                        "code": "CLS001"
+                    }
+                ],
+                "batches": [
+                    {
+                        "id": "7622a583-073f-4979-95aa-4784fc273941",
+                        "name": "Batch 1",
+                        "code": "BAT001"
+                    }
+                ],
+                "userInfo": {
+                    "id": "a4aa0712-abb6-40d2-95a6-6188926dae70",
+                    "userName": "malu@yopmail.com",
+                    "name": "MALU",
+                    "email": "malu@yopmail.com",
+                    "phone": null,
+                    "profileImage": null,
+                    "postalCode": null,
+                    "address": null,
+                    "city": null,
+                    "state": null
+                },
+                "code": "123",
+                "isSelfEnrolled": false,
+                "enrolmentSourceType": 1,
+                "id": "569daa7c-bd23-4aa4-be50-047a31300a84",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-13T11:12:43.4268084+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "startDateTime": "2020-10-14T11:52:00+05:30",
+            "bufferTimeInMinutes": 0,
+            "shuffleQuestions": true,
+            "mandatoryQuestions": false,
+            "updateReason": null,
+            "isSubmitted": false,
+            "exam": {
+                "name": "JEE question",
+                "description": "Test",
+                "duration": 120,
+                "noOfQuestion": 34,
+                "marks": 136,
+                "subjects": [
+                    {
+                        "id": "c414cdc3-7d56-4221-9718-bbe85a7bae09",
+                        "name": "Physics",
+                        "code": null,
+                        "marks": 48
+                    },
+                    {
+                        "id": "6825b552-e0a9-4e03-8736-441ac036febe",
+                        "name": "Chemistry",
+                        "code": null,
+                        "marks": 36
+                    },
+                    {
+                        "id": "f7ae1f62-4eb4-4136-83c5-41bae75da491",
+                        "name": "Mathematics",
+                        "code": null,
+                        "marks": 52
+                    }
+                ],
+                "courses": [
+                    {
+                        "id": "f1127067-bb7f-4aef-9d1b-d93f7d16dfbd",
+                        "name": "JEE",
+                        "code": null
+                    }
+                ],
+                "instructions": "For MHT-CET each correct answer carries +2 for maths, +1 for chemistry & physics each and for wrong answer 0 marks.\nFor JEE each correct answer +4 and for wrong answer -1 marks.\nFor NEET each correct answer +4 and for wrong answer -1 marks.\nFor K-CET each correct answer carries +2 for maths, +1 for chemistry and physics each and for wrong answer 0 marks.\nExam will get automatically submitted after exam set duration.\nDuring exam, on click of back button, a pop-up will ask to Discard the exam.\n",
+                "examType": 1,
+                "lastScheduleDate": "2020-10-14T11:52:00+05:30",
+                "organizerAccountName": "SG Institute",
+                "organizerAccountShortName": "SGI",
+                "organizerProfileImage": null,
+                "questionSetDataUrl": "https://sglearningfilestorage-dev-cdn.azureedge.net/questionsetdatafiles/51b6bd1a-790e-4449-a735-084a92e39b65%2F39c2c542-a242-45f5-96d1-c7e437cead1c",
+                "id": "ee8b9000-b848-4e1e-8266-81f838af20cb",
+                "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+                "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+                "dateCreated": "2020-10-14T06:22:43.6997959+00:00",
+                "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                "dateModified": null,
+                "deletedByHandle": null,
+                "deletedBy": "00000000-0000-0000-0000-000000000000",
+                "dateDeleted": null,
+                "isDeleted": false
+            },
+            "inTimeAttemptStartDateTime": null,
+            "inTimeAttemptEndDateTime": null,
+            "inTimeAttemptDiscardedDateTime": null,
+            "orgnaizerRemark": null,
+            "studentRemark": null,
+            "examScheduleAccessType": 1,
+            "purchasedProductId": null,
+            "id": "670a4b34-9d3a-439b-8b62-a980aca13f80",
+            "accountId": "51b6bd1a-790e-4449-a735-084a92e39b65",
+            "createdByUserId": "1dc56357-b69e-4c8d-8459-1c826dbdea7b",
+            "dateCreated": "2020-10-14T06:23:03.1104177+00:00",
+            "modifiedBy": "00000000-0000-0000-0000-000000000000",
+            "dateModified": null,
+            "deletedByHandle": null,
+            "deletedBy": "00000000-0000-0000-0000-000000000000",
+            "dateDeleted": null,
+            "isDeleted": false
+        }
+    ],
+    "page": 1,
+    "pageSize": 50,
+    "nextPage": null,
+    "previousPage": "https://sglearning-development.azurewebsites.net/api/v1/students/examSchedule?StudentUserId=a4aa0712-abb6-40d2-95a6-6188926dae70&Page=0&PageSize=50&IsDeleted=False"
+}

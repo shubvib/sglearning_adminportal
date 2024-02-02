@@ -1,0 +1,53 @@
+/**main css**/
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap');
+
+body{
+	margin: 0;
+	font-family: 'Muli', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.IconSpacing {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.noSpacing {
+	padding: 0;
+	margin: 0;
+}
+
+/*btn class override */
+.btn {
+	border-radius: 0;
+}
+.btn:hover {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+/*btn-primary class override */
+.btn-primary {
+	background-color: #30419b;
+}
+
+/*btn-success class override */
+.btn-success {
+	background-color: #02c58d;
+}
+
+/*btn-warning class override */
+.btn-warning {
+	background-color: #fcbe2d;
+}
+
+/*btn-danger class override */
+.btn-danger {
+	background-color: #fc5454;
+}
+
+/*btn-default class override */
+.btn-default {
+	background-color: #f0f4f7;
+}
+.seperator{
+    padding:0px;
+}

@@ -1,0 +1,57 @@
+.terms-privacy-policy{
+    background: #000000a6;
+    padding: 100px;
+ h3{
+    text-align: center;
+    color: #bfb0b0;
+    font-family: $common-custome-dark-font-family-bold;
+    font-size: 28px;
+    margin-bottom: 30px;
+ }
+ p{
+    label{
+       font-size: 16px;
+    }
+    color: #bfb0b09e;
+    font-family: $common-custome-dark-font-family-regular;
+    font-size: 15px;
+    margin-bottom: 30px;  
+ }
+ label{
+    color: #bfb0b0;
+    font-family: $common-custome-dark-font-family-bold;
+    font-size: 21px;
+    margin-bottom: 10px;   
+    display: block;
+ }
+ span{
+    color: #ffffff9e;
+    font-family: $common-custome-dark-font-family-regular;
+    font-size: 15px;
+    margin-bottom: 10px;   
+    display: block; 
+ }
+ ul.alpha-list{
+     list-style: none;
+    
+     li{
+         color: #ffffff9e;
+         font-family: $common-custome-dark-font-family-regular;
+         font-size: 15px;
+         margin-bottom: 10px; 
+         list-style: lower-alpha;
+     }
+ }
+ ul.dot-list{
+     list-style: none;
+    
+     li{
+         color: #ffffff9e;
+         font-family: $common-custome-dark-font-family-regular;
+         font-size: 15px;
+         margin-bottom: 10px; 
+         list-style: circle;
+         
+     }
+ }
+}

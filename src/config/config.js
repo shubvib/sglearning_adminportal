@@ -1,0 +1,13 @@
+export const HOST = 'http://localhost/';
+export const API = 'api/';
+export const BaseUrl = 'https://sglearning.azurewebsites.net/api/v1'
+export const RegisterUrl = `${BaseUrl}/account/register`
+export const GetOTPUrl = 'https://sglearning.azurewebsites.net/api/v1/account/otp'
+export const EmailLoginUrl = 'https://sglearning.azurewebsites.net/api/v1/account/login'
+export const ResetPasswordUrl = 'https://sglearning.azurewebsites.net/api/v1/account/resetPassword'
+export const LoginWithGoogle = 'https://sglearning.azurewebsites.net/api/v1/account/auth/google'
+export const GetCourseMasterList = `${BaseUrl}/coursemasters?Page=1&PageSize=20&IsDeleted=false`
+export const GetSubjectMasterList = `${BaseUrl}/subjectMasters`
+export const GetChapterMasterList = `${BaseUrl}/chapterMasters`
+export const GetSessionMasterList = `${BaseUrl}/sessions`
+export const CreateSession = `${BaseUrl}/sessions`
